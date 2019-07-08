@@ -7,6 +7,6 @@ public class Main {
         System.out.println(sum.sum(2, 4));
 
 
-        
+
     }
 }
