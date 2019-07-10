@@ -36,5 +36,14 @@ public class Main {
 
         System.out.println(reverseString.reverse("Klaudia"));
 
+//6. Write a method that returns the largest integer in the list.
+//You can assume that the list has at least one element.
+        System.out.println("Exercise 6:");
+        FindMaximum findMaximum = new FindMaximum();
+        Integer[] list2 = new Integer[]{2, -1, 4, 9, 8, 3};
+        findMaximum.showList(list2);
+        System.out.println();
+        System.out.println(findMaximum.maximum(list2));
+
     }
 }
