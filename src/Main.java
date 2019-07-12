@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -44,6 +48,13 @@ public class Main {
         findMaximum.showList(list2);
         System.out.println();
         System.out.println(findMaximum.maximum(list2));
+//7. Write a method that returns the average of a list of integers.
+        System.out.println("Exercise 6:");
+        AverageValue averageValue = new AverageValue();
+        List<Integer> list1 = Arrays.asList(1, 4, 4, 6, 6, 2);
+        System.out.println(averageValue.average(list1));
+        System.out.println(averageValue.average2(list1));
+
 
     }
 }
