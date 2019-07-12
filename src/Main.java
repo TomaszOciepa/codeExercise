@@ -54,7 +54,11 @@ public class Main {
         List<Integer> list1 = Arrays.asList(1, 4, 4, 6, 6, 2);
         System.out.println(averageValue.average(list1));
         System.out.println(averageValue.average2(list1));
-
+//8. Write a method that converts all strings in a list to their upper case.
+        System.out.println("Exercise 6:");
+        ConvertToUpperCase convertToUpperCase = new ConvertToUpperCase();
+        List<String>list3 = Arrays.asList("ReaL", "MaDrid", "yErba maTe");
+        System.out.println(convertToUpperCase.upperCase(list3));
 
     }
 }
