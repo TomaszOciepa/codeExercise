@@ -9,6 +9,5 @@ public class ConvertToUpperCase {
         return list.stream()
                 .map(String::toUpperCase)
                 .collect(Collectors.toList());
-
     }
 }

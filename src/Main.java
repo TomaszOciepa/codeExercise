@@ -49,16 +49,23 @@ public class Main {
         System.out.println();
         System.out.println(findMaximum.maximum(list2));
 //7. Write a method that returns the average of a list of integers.
-        System.out.println("Exercise 6:");
+        System.out.println("Exercise 7:");
         AverageValue averageValue = new AverageValue();
         List<Integer> list1 = Arrays.asList(1, 4, 4, 6, 6, 2);
         System.out.println(averageValue.average(list1));
         System.out.println(averageValue.average2(list1));
 //8. Write a method that converts all strings in a list to their upper case.
-        System.out.println("Exercise 6:");
+        System.out.println("Exercise 8:");
         ConvertToUpperCase convertToUpperCase = new ConvertToUpperCase();
         List<String>list3 = Arrays.asList("ReaL", "MaDrid", "yErba maTe");
         System.out.println(convertToUpperCase.upperCase(list3));
-
+//9. Write a method that returns th nth element of a list. If the index of the element exceeds the list size, then return -1.
+        System.out.println("Exercise 9:");
+        NthOddElement nthOddElement = new NthOddElement();
+         List<Integer> list4 = Arrays.asList(1, 2, 3, 4, 5, 6);
+         nthOddElement.showList(list4);
+        System.out.println();
+        System.out.println(list4.size());
+        System.out.println(nthOddElement.getElement(list4, 1));
     }
 }
