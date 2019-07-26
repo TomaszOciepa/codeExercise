@@ -66,6 +66,16 @@ public class Main {
          nthOddElement.showList(list4);
         System.out.println();
         System.out.println(list4.size());
-        System.out.println(nthOddElement.getElement(list4, 1));
+        System.out.println(nthOddElement.getElement(list4, 2));
+//10. A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself.
+//Write a method that checks if a number is prime number.
+        System.out.println("Exercise 10:");
+        PrimeNumber primeNumber = new PrimeNumber();
+        System.out.println(primeNumber.isPrime(7));
     }
+
+
+
+
+
 }
